@@ -14,7 +14,7 @@ add_executable(${PROJECT_NAME}
   # day_two/part_two.cpp
   # day_three/part_one.cpp
   # day_three/part_two.cpp
-  day_four/part_one.cpp
+  day_four/part_one_two.cpp
   # main.cpp
 )
 
