@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Surr Elii/Documents/CODE/ProjeksV3/AOC_2025/day_three/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\myProject.dir\\main.cpp.obj -c \"C:\\Users\\Surr Elii\\Documents\\CODE\\ProjeksV3\\AOC_2025\\day_three\\main.cpp\"",
+  "file": "C:/Users/Surr Elii/Documents/CODE/ProjeksV3/AOC_2025/day_three/main.cpp",
+  "output": "CMakeFiles/myProject.dir/main.cpp.obj"
+}
+]

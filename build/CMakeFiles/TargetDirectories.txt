@@ -1,0 +1,3 @@
+C:/Users/Surr Elii/Documents/CODE/ProjeksV3/Advent-of-Code/build/CMakeFiles/myProject.dir
+C:/Users/Surr Elii/Documents/CODE/ProjeksV3/Advent-of-Code/build/CMakeFiles/edit_cache.dir
+C:/Users/Surr Elii/Documents/CODE/ProjeksV3/Advent-of-Code/build/CMakeFiles/rebuild_cache.dir
