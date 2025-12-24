@@ -57,12 +57,13 @@ int main()
 
   while (std::getline(inputFile, inputLine))
   {
-    // std::cout << "LEN: " << inputLine.length() << "\n";
+    std::cout << "LEN: " << inputLine.length() << "\n";
     if(maxLineLen < inputLine.length())
       maxLineLen = inputLine.length();
 
     input.push_back(inputLine);
   }
+
 
   std::vector<std::vector<std::string>> numbers;
   int numArrIndex{0}; //index of current array being accessed, increases when we're done with a set

@@ -128,29 +128,29 @@ myProject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\myProject.dir\build.make CMakeFiles/myProject.dir/build
 .PHONY : myProject/fast
 
-day_six/test.obj: day_six/test.cpp.obj
-.PHONY : day_six/test.obj
+day_seven/part_two.obj: day_seven/part_two.cpp.obj
+.PHONY : day_seven/part_two.obj
 
 # target to build an object file
-day_six/test.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\myProject.dir\build.make CMakeFiles/myProject.dir/day_six/test.cpp.obj
-.PHONY : day_six/test.cpp.obj
+day_seven/part_two.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myProject.dir\build.make CMakeFiles/myProject.dir/day_seven/part_two.cpp.obj
+.PHONY : day_seven/part_two.cpp.obj
 
-day_six/test.i: day_six/test.cpp.i
-.PHONY : day_six/test.i
+day_seven/part_two.i: day_seven/part_two.cpp.i
+.PHONY : day_seven/part_two.i
 
 # target to preprocess a source file
-day_six/test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\myProject.dir\build.make CMakeFiles/myProject.dir/day_six/test.cpp.i
-.PHONY : day_six/test.cpp.i
+day_seven/part_two.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myProject.dir\build.make CMakeFiles/myProject.dir/day_seven/part_two.cpp.i
+.PHONY : day_seven/part_two.cpp.i
 
-day_six/test.s: day_six/test.cpp.s
-.PHONY : day_six/test.s
+day_seven/part_two.s: day_seven/part_two.cpp.s
+.PHONY : day_seven/part_two.s
 
 # target to generate assembly for a file
-day_six/test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\myProject.dir\build.make CMakeFiles/myProject.dir/day_six/test.cpp.s
-.PHONY : day_six/test.cpp.s
+day_seven/part_two.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myProject.dir\build.make CMakeFiles/myProject.dir/day_seven/part_two.cpp.s
+.PHONY : day_seven/part_two.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... myProject
-	@echo ... day_six/test.obj
-	@echo ... day_six/test.i
-	@echo ... day_six/test.s
+	@echo ... day_seven/part_two.obj
+	@echo ... day_seven/part_two.i
+	@echo ... day_seven/part_two.s
 .PHONY : help
 
 

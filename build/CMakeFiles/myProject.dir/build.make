@@ -71,28 +71,28 @@ include CMakeFiles/myProject.dir/flags.make
 CMakeFiles/myProject.dir/codegen:
 .PHONY : CMakeFiles/myProject.dir/codegen
 
-CMakeFiles/myProject.dir/day_six/test.cpp.obj: CMakeFiles/myProject.dir/flags.make
-CMakeFiles/myProject.dir/day_six/test.cpp.obj: C:/Users/Surr\ Elii/Documents/CODE/ProjeksV3/Advent-of-Code/day_six/test.cpp
-CMakeFiles/myProject.dir/day_six/test.cpp.obj: CMakeFiles/myProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Surr Elii\Documents\CODE\ProjeksV3\Advent-of-Code\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/myProject.dir/day_six/test.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myProject.dir/day_six/test.cpp.obj -MF CMakeFiles\myProject.dir\day_six\test.cpp.obj.d -o CMakeFiles\myProject.dir\day_six\test.cpp.obj -c "C:\Users\Surr Elii\Documents\CODE\ProjeksV3\Advent-of-Code\day_six\test.cpp"
+CMakeFiles/myProject.dir/day_seven/part_two.cpp.obj: CMakeFiles/myProject.dir/flags.make
+CMakeFiles/myProject.dir/day_seven/part_two.cpp.obj: C:/Users/Surr\ Elii/Documents/CODE/ProjeksV3/Advent-of-Code/day_seven/part_two.cpp
+CMakeFiles/myProject.dir/day_seven/part_two.cpp.obj: CMakeFiles/myProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Surr Elii\Documents\CODE\ProjeksV3\Advent-of-Code\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/myProject.dir/day_seven/part_two.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myProject.dir/day_seven/part_two.cpp.obj -MF CMakeFiles\myProject.dir\day_seven\part_two.cpp.obj.d -o CMakeFiles\myProject.dir\day_seven\part_two.cpp.obj -c "C:\Users\Surr Elii\Documents\CODE\ProjeksV3\Advent-of-Code\day_seven\part_two.cpp"
 
-CMakeFiles/myProject.dir/day_six/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/myProject.dir/day_six/test.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Surr Elii\Documents\CODE\ProjeksV3\Advent-of-Code\day_six\test.cpp" > CMakeFiles\myProject.dir\day_six\test.cpp.i
+CMakeFiles/myProject.dir/day_seven/part_two.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/myProject.dir/day_seven/part_two.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Surr Elii\Documents\CODE\ProjeksV3\Advent-of-Code\day_seven\part_two.cpp" > CMakeFiles\myProject.dir\day_seven\part_two.cpp.i
 
-CMakeFiles/myProject.dir/day_six/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/myProject.dir/day_six/test.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Surr Elii\Documents\CODE\ProjeksV3\Advent-of-Code\day_six\test.cpp" -o CMakeFiles\myProject.dir\day_six\test.cpp.s
+CMakeFiles/myProject.dir/day_seven/part_two.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/myProject.dir/day_seven/part_two.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Surr Elii\Documents\CODE\ProjeksV3\Advent-of-Code\day_seven\part_two.cpp" -o CMakeFiles\myProject.dir\day_seven\part_two.cpp.s
 
 # Object files for target myProject
 myProject_OBJECTS = \
-"CMakeFiles/myProject.dir/day_six/test.cpp.obj"
+"CMakeFiles/myProject.dir/day_seven/part_two.cpp.obj"
 
 # External object files for target myProject
 myProject_EXTERNAL_OBJECTS =
 
-myProject.exe: CMakeFiles/myProject.dir/day_six/test.cpp.obj
+myProject.exe: CMakeFiles/myProject.dir/day_seven/part_two.cpp.obj
 myProject.exe: CMakeFiles/myProject.dir/build.make
 myProject.exe: CMakeFiles/myProject.dir/linkLibs.rsp
 myProject.exe: CMakeFiles/myProject.dir/objects1.rsp

@@ -58,7 +58,7 @@ int main()
 
   while (std::getline(inputFile, inputLine))
   {
-    // std::cout << "LEN: " << inputLine.length() << "\n";
+    std::cout << "LEN: " << inputLine.length() << "\n";
     if(maxLineLen < inputLine.length())
       maxLineLen = inputLine.length();
 

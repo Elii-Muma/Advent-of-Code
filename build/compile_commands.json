@@ -1,8 +1,8 @@
 [
 {
   "directory": "C:/Users/Surr Elii/Documents/CODE/ProjeksV3/Advent-of-Code/build",
-  "command": "C:\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\myProject.dir\\day_six\\test.cpp.obj -c \"C:\\Users\\Surr Elii\\Documents\\CODE\\ProjeksV3\\Advent-of-Code\\day_six\\test.cpp\"",
-  "file": "C:/Users/Surr Elii/Documents/CODE/ProjeksV3/Advent-of-Code/day_six/test.cpp",
-  "output": "CMakeFiles/myProject.dir/day_six/test.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\myProject.dir\\day_seven\\part_two.cpp.obj -c \"C:\\Users\\Surr Elii\\Documents\\CODE\\ProjeksV3\\Advent-of-Code\\day_seven\\part_two.cpp\"",
+  "file": "C:/Users/Surr Elii/Documents/CODE/ProjeksV3/Advent-of-Code/day_seven/part_two.cpp",
+  "output": "CMakeFiles/myProject.dir/day_seven/part_two.cpp.obj"
 }
 ]
