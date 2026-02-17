@@ -1,0 +1,30 @@
+   0123456789ABCDE
+[0].......S.......
+[1]...............
+[2].......^.......
+[3]...............
+[4]......^.^......
+[5]...............
+[6].....^.^.^.....
+[7]...............
+
+start position = 7
+go down
+start path: at position 7
+so you start with one path
+
+i dont NEED a path, because im not doing anything with it...i just need to know WHEN theres a path thats been made
+
+pos7:l1: num of paths 1
+pos7:l2: num of paths 2 (1 splits into two, so we add an extra one)
+so now we're tracking 2 paths
+pos8:l3 && pos6:l3: num of paths 2
+pos6:l4: split into two: at pos7 and at pos5
+pos8:l4: split into two: at pos7 and at pos9
+now we have duplicates
+what does a duplicate mean?
+it means we have two paths in that same location that we need to track
+so at pos7, we'll have 2 paths
+
+
+data type stores a position and how many paths are at that position

@@ -18,7 +18,7 @@ int main()
 {
 
   std::ifstream input_file;
-  input_file.open("resources/input_.txt");
+  input_file.open("../day_one/resources/input_.txt");
 
   if (!input_file.is_open())
   {

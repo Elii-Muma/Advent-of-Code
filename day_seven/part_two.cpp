@@ -50,19 +50,25 @@ int main()
   {
     // get le starting position
     // if its the first line i guess..we nab the starting position
-    if (rowNum == 0)
-      for (int i = 0; i < inputLine.length() - 1; i++)
-      {
-        char c = inputLine[i];
+    if (rowNum == 0){
+      startPosition = inputLine.find("S");
+      beams.push_back(std::pair(std::pair(startPosition, true), 1));
 
-        if (c == 'S')
-        {
-          std::cout << "start pos: " << i << "\n";
-          startPosition = i;
-          beams.push_back(std::pair(std::pair(startPosition, true), 1));
-          break;
-        }
-      }
+      // OR
+      // for (int i = 0; i < inputLine.length() - 1; i++)
+      // {
+      //   char c = inputLine[i];
+
+      //   if (c == 'S')
+      //   {
+      //     std::cout << "start pos: " << i << "\n";
+      //     startPosition = i;
+      //     beams.push_back(std::pair(std::pair(startPosition, true), 1));
+      //     break;
+      //   }
+      // }
+    }
+
 
     try
     {
@@ -76,7 +82,7 @@ int main()
           continue;
         int beamPos = currBeam.first.first;     // get the position for checking
         long long numPaths = currBeam.second;
-        char new_c = inputLine[beamPos]; // get the character thats at the position
+        char new_c = inputLine[beamPos];        // get the character thats at the position
 
         if (new_c == '.')
         {
@@ -99,7 +105,7 @@ int main()
           }
 
           beams[j] = std::pair(std::pair(beamPos, false), 0); // kill the current beam
-          inputLine[leftPos] = '|';
+          inputLine[leftPos]  = '|';
           inputLine[rightPos] = '|';
 
         }
@@ -109,15 +115,15 @@ int main()
     {
       std::cerr << e.what() << '\n';
     }
-    std::cout << "LINE: " << inputLine << "[" << beams.size() << "]\n";
 
+    // std::cout << "LINE: " << inputLine << "[" << beams.size() << "]\n";
     rowNum++;
   }
 
   long long totalPaths{0};
   for (auto pair : beams)
     if(pair.first.second){
-      std::cout << "num of duplicates: " << pair.second << " at "<< pair.first.first << "\n";
+      // std::cout << "num of duplicates: " << pair.second << " at "<< pair.first.first << "\n";
       totalPaths+=pair.second;
     }
 
