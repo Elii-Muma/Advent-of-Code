@@ -128,29 +128,29 @@ myProject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\myProject.dir\build.make CMakeFiles/myProject.dir/build
 .PHONY : myProject/fast
 
-day_eight/part_one.obj: day_eight/part_one.cpp.obj
-.PHONY : day_eight/part_one.obj
+day_nine/part_two.obj: day_nine/part_two.cpp.obj
+.PHONY : day_nine/part_two.obj
 
 # target to build an object file
-day_eight/part_one.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\myProject.dir\build.make CMakeFiles/myProject.dir/day_eight/part_one.cpp.obj
-.PHONY : day_eight/part_one.cpp.obj
+day_nine/part_two.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myProject.dir\build.make CMakeFiles/myProject.dir/day_nine/part_two.cpp.obj
+.PHONY : day_nine/part_two.cpp.obj
 
-day_eight/part_one.i: day_eight/part_one.cpp.i
-.PHONY : day_eight/part_one.i
+day_nine/part_two.i: day_nine/part_two.cpp.i
+.PHONY : day_nine/part_two.i
 
 # target to preprocess a source file
-day_eight/part_one.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\myProject.dir\build.make CMakeFiles/myProject.dir/day_eight/part_one.cpp.i
-.PHONY : day_eight/part_one.cpp.i
+day_nine/part_two.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myProject.dir\build.make CMakeFiles/myProject.dir/day_nine/part_two.cpp.i
+.PHONY : day_nine/part_two.cpp.i
 
-day_eight/part_one.s: day_eight/part_one.cpp.s
-.PHONY : day_eight/part_one.s
+day_nine/part_two.s: day_nine/part_two.cpp.s
+.PHONY : day_nine/part_two.s
 
 # target to generate assembly for a file
-day_eight/part_one.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\myProject.dir\build.make CMakeFiles/myProject.dir/day_eight/part_one.cpp.s
-.PHONY : day_eight/part_one.cpp.s
+day_nine/part_two.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myProject.dir\build.make CMakeFiles/myProject.dir/day_nine/part_two.cpp.s
+.PHONY : day_nine/part_two.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... myProject
-	@echo ... day_eight/part_one.obj
-	@echo ... day_eight/part_one.i
-	@echo ... day_eight/part_one.s
+	@echo ... day_nine/part_two.obj
+	@echo ... day_nine/part_two.i
+	@echo ... day_nine/part_two.s
 .PHONY : help
 
 
